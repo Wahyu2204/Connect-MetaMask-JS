@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="x-icon" href="assets/img/fundesign.png">
+  <title>Fundes1gn</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- JS -->
+  <script src="assets/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+
+  <!-- FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header id="header" class="header d-flex align-items-center sticky-top bg-white shadow">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+  
+      <a href="main.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <img src="assets/img/fundesign.png" alt="" width="60px">
+        <h4 class="sitename">Fundes1gn.</h4>
+        <span>.</span>
+      </a>
+  
+      <nav id="navmenu" class="navmenu">
+        <!-- <ul>
+            <li><a href="#hero" class="active">Home<br></a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#why-us">Excellent</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#do-and-donts">Do and Donts</a></li>
+            <li><a href="#price">Price List</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul> -->
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+  
+      <a class="btn pesanan text-white px-3" href="#price">Buat Pesanan</a>
+  
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+    
+      <div class="container">
+        <div class="row gy-4 p-5 justify-content-center justify-content-lg-between">
+          <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <h1 >Fundes1gn</h1>
+            <p >Hai kamu, selamat datang</p>
+            <!-- <div class="d-flex">
+              <a href="#price" class="btn pesanan text-white px-3">Buat Pesanan</a>
+            </div> -->
+          </div>
+          <div class="col-lg-5 order-1 order-lg-2 hero-img">
+            <img src="assets/img/fundesign.png" class="img-fluid animated" alt="">
+          </div>
+        </div>
+      </div>
+    
+    </section>
+    <!-- /Hero Section -->
+
+    <!-- Portofolio -->
+     <section id="portofolio" class="portofolio section">
+
+      <div class="container m-auto p-5 justify-content-center align-items-center">
+        <div class="text-center">
+          <h2>Penasaran dengan <span class="text-white">Portofolio</span> kami?<br></h2>
+          <p>Jika anda penasaran dengan <span class="fw-bold text-white">Portofolio</span> kami, <br>anda bisa menScan QR Code yang tertera di bawah ini.</p>
+          <img src="assets/img/fundes1gn_qr.png" alt="" width="200px" class="shadow rounded-2">
+          <div class="btn-wrapper mt-3">
+            <p>Bisa juga melalui link dengan mengeklik tombol ini.</p>
+            <a href="https://www.instagram.com/fundes1gn/?next=%2F" class="btn instagram text-white px-3" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"
+                viewBox="0 0 16 16">
+                <path
+                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+              </svg>
+              Instagram
+            </a>
+          </div>
+        </div>
+      </div>
+
+     </section>
+    <!-- /Portofolio -->
+
+    <!-- Pesan -->
+    <section id="pesan" class="pesan section">
+      <div class="img-bg">
+        <img src="/assets/img/bg-2.jpeg" alt="" width="100%">
+      </div>
+    
+      <div class="container m-auto p-5 justify-content-center align-items-center">
+        <div class="text-center text-white">
+          <h2>Tunggu apa lagi? <br>ayo <span class="fw-bold">Pesan</span> sekarang juga!</h2>
+          <img src="assets/img/serba12.png" alt="" width="70%">
+          <div class="mt-3">
+            <p>Gas lah mesen, yakali enggak 🥵</p>
+    
+            <!-- Wrapper untuk tombol Connect MetaMask dan Disconnect MetaMask -->
+            <div class="d-flex justify-content-center">
+              <button id="connectWallet" class="btn btn-primary" onclick="connectWallet()">
+                Connect MetaMask
+              </button>
+              <button id="disconnectWallet" class="btn btn-danger" onclick="disconnectWallet()" style="display:none;">
+                Disconnect MetaMask
+              </button>
+            </div>
+    
+            <!-- Wrapper untuk tombol Pesan Sekarang -->
+            <div class="d-flex justify-content-center mt-3">
+              <button id="orderButton" class="btn btn-warning" style="display:none;" data-bs-toggle="modal"
+                data-bs-target="#orderModal">
+                Pesan Sekarang
+              </button>
+            </div>
+    
+            <!-- Modal -->
+            <div class="modal fade" id="orderModal" tabindex="-1" aria-labelledby="orderModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="orderModalLabel">Pemesanan Produk</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form id="order">
+                      <div class="form-floating mb-3">
+                        <select id="produk" name="produk" class="form-select">
+                          <option value="Logo">Logo</option>
+                          <option value="Ilustrasi">Ilustrasi</option>
+                          <option value="Desain Poster">Desain Poster</option>
+                        </select>
+                        <label for="produk">Pilih Produk:</label>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <input type="number" id="amount" name="amount" class="form-control" step="0.01">
+                        <label for="amount">Jumlah (ETH):</label>
+                      </div>
+                      <button type="button" class="btn btn-success" onclick="payWithEthereum()">Pesan dengan
+                        Ethereum</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- /Pesan -->
+  </main>
+
+  <!-- Footer -->
+  <!-- Footer -->
+  <footer class="footer bg-dark text-white text-center py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <h5>Kontak Kami</h5>
+          <p>Email: info@visio.com</p>
+          <p>Telp: +62 812-3456-7890</p>
+        </div>
+        <div class="col-12 col-md-4">
+          <h5>Ikuti Kami</h5>
+          <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i> Facebook</a>
+          <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i> Twitter</a>
+          <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i> Instagram</a>
+        </div>
+        <div class="col-12 col-md-4">
+          <h5>Tautan Cepat</h5>
+          <a href="#home" class="text-white d-block">Beranda</a>
+          <a href="#about" class="text-white d-block">Tentang Kami</a>
+          <a href="#services" class="text-white d-block">Layanan</a>
+        </div>
+      </div>
+      <div class="mt-4">
+        <p>&copy; 2025 Visio. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <!-- /Footer -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+</body>
+
+</html>

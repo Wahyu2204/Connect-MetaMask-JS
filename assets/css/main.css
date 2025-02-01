@@ -1,0 +1,92 @@
+* {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* navbar */
+.logo {
+  text-decoration: none;
+  color : #000;
+}
+
+.pesanan {
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #E195AB !important;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+}
+
+
+/* hero */
+.hero {
+  display: flex;
+  background: linear-gradient(45deg, #BFECFF, #CDC1FF, #FFF6E3, #FFCCEA);
+  background-size: 400% 400%;
+  animation: gradientMovement 15s ease infinite;
+}
+
+@keyframes gradientMovement {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* portofolio */
+.portofolio {
+  /* display: flex; */
+  background: linear-gradient(45deg, #77CDFF, #0D92F4);
+}
+
+.instagram {
+  text-decoration: none;
+    border-radius: 5px;
+    background-color: #0D92F4 !important;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+}
+
+/* pesan */
+.img-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.img-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(50%);
+  /* Menggelapkan gambar */
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin: 10px;
+}
